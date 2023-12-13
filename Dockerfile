@@ -13,6 +13,7 @@ COPY Gemfile Gemfile.lock $APP_ROOT/
 # * Setup system
 # * Install Ruby dependencies
 RUN apk add --update \
+    bash \
     build-base \
     netcat-openbsd \
     git \
