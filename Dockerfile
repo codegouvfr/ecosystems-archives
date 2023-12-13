@@ -33,8 +33,7 @@ RUN apk add --update \
  && gem install bundler foreman \
  && bundle config --global frozen 1 \
  && bundle config set without 'test' \
- && bundle install --jobs 2 \
-&& pip install docutils
+ && bundle install --jobs 2
 
 
 # ========================================================
